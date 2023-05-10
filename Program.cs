@@ -75,7 +75,7 @@ namespace GPOUP2NEWPROJECT
             } while (option != 0);
 
             Console.WriteLine("My name is Lance");
-
+            Console.WriteLine("My name is sultan");
             Console.ReadLine();
 
        

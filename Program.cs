@@ -5,6 +5,31 @@ namespace GPOUP2NEWPROJECT
 {
     internal class Program
     {
+        public static void Task1()
+        {
+            Console.Clear();
+            Console.WriteLine("This is task 1");
+            Console.ReadLine();
+        }
+        public static void Task2()
+        {
+            Console.Clear();
+            Console.WriteLine("This is task 2");
+            Console.ReadLine();
+        }
+        public static void Task3()
+        {
+            Console.Clear();
+            Console.WriteLine("This is task 3");
+            Console.ReadLine();
+        }
+        public static void Task4()
+        {
+            Console.Clear();
+            Console.WriteLine("This is task 4");
+            Console.ReadLine();
+        }
+
         public static void Main()
         {
             int option;
@@ -24,19 +49,19 @@ namespace GPOUP2NEWPROJECT
                 switch (option)
                 {
                     case 1:
-                        one();
+                        Task1();
                         break;
                     case 2:
 
-                        two();
+                        Task2();
                         break;
                     case 3:
 
-                        three();
+                        Task3();
                         break;
                     case 4:
 
-                        four();
+                        Task4();
                         break;
                     case 0:
                         Console.WriteLine("Exit");
@@ -47,6 +72,10 @@ namespace GPOUP2NEWPROJECT
                         break;
                 }
             } while (option != 0);
+
+
+
+
 
         }
     }

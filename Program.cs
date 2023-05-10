@@ -75,14 +75,11 @@ namespace GPOUP2NEWPROJECT
             } while (option != 0);
 
             Console.WriteLine("My name is Lance");
-<<<<<<< HEAD
+
             Console.WriteLine("My name is sultan");
-=======
+
             Console.WriteLine("My name is Keanu");
 
-
-
->>>>>>> a3a0e9a525590865dd83fc0ce39ebe1b472575f9
             Console.ReadLine();
 
        

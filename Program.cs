@@ -5,6 +5,7 @@ namespace GPOUP2NEWPROJECT
 {
     internal class Program
     {
+     
         public static void Task1()
         {
             Console.Clear();
@@ -73,7 +74,7 @@ namespace GPOUP2NEWPROJECT
                 }
             } while (option != 0);
 
-
+            Console.WriteLine("My name is Lance");
 
 
 
